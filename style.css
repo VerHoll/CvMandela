@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.blockGeneral{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Montserrat;
+}
+.blockCv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.blockInfo{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.pp{
+    width: 200px;
+    height: 200px;
+   
+}
+.rightTitle{
+    background-color: #fdbdbd;
+    border: solid 1px #fdbdbd;
+    padding: 1px;
+}
+.blockGauche{
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fdbdbd;
+    align-items: center;
+}
+.blockDroit{
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 5%;
+}
+.competences{
+    text-align: center;
+}
+.leftTitle{
+    color: white;
+    text-align: center;
+}
+.nomP{
+    margin-left: 10%;
+}
+.langueRating{
+    position: relative;
+    top:5px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.blockNomPrenom{
+    background-color: #725452;
+    height: 30vh;
+    padding-left: 10%;
+    color: #fdbdbd;
+    display: flex;
+    flex-flow: row wrap;
+}
+.diplome,.role{
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .blockNomPrenom{
+        background-color: #725452;
+        height: 60vh;
+      
+        color: #fdbdbd;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .blockInfo{
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-flow:column wrap;
+    }
+    .blockGauche{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #fdbdbd;
+        align-items: center;
+    }
+    .blockDroit{
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+    
+  }
